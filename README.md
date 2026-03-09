@@ -21,6 +21,10 @@ UseCortex MCP is a [Model Context Protocol](https://modelcontextprotocol.io) ser
 
 No context window limits. No copy-pasting. No outdated docs. Your AI remembers everything.
 
+<a href="https://glama.ai/mcp/servers/darktw/usecortex-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/darktw/usecortex-mcp/badge" alt="usecortex-mcp MCP server" />
+</a>
+
 ## How It Works
 
 1. **You chat** — describe your coding standards, architecture decisions, client requirements, anything
