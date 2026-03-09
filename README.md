@@ -120,11 +120,11 @@ Retrieve all knowledge entries for a specific topic.
 
 | Who               | What                                                                  |
 |-------------------|-----------------------------------------------------------------------|
-| **Developers**    | Share coding standards and architecture decisions with your AI agent  |
-| **Support teams** | Feed product policies to AI chatbots automatically                   |
-| **Sales teams**   | Store client context so AI preps you before every meeting             |
-| **Team leads**    | Onboard new hires with a living knowledge base, not stale wikis       |
-| **Freelancers**   | Keep project context across clients without losing track              |
+| **Developers**    | Your coding standards, architecture decisions, and project context — automatically available to your AI agent |
+| **Support teams** | Feed real policies and procedures to any support bot — it answers with facts, not guesses |
+| **Sales teams**   | Store client history, pricing, and objections — pull everything before meetings |
+| **Individuals**   | Your personal brain backup — everything you know, encrypted and accessible from any AI tool |
+| **HR & Onboarding** | Your company playbook — processes, tools, culture — available to new hires instantly |
 
 ## Pricing
 
