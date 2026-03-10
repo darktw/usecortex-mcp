@@ -196,11 +196,12 @@ Manage your plan at [usecortex.net](https://usecortex.net).
 
 ## Contributing
 
-Found a bug or have a feature request? [Open an issue](https://github.com/darktw/usecortex-mcp/issues).
+Found a bug or have a feature request? [Open an issue](https://github.com/usecortex-official/cortex-mcp/issues).
 
 ## Links
 
 - [UseCortex](https://usecortex.net) — Create your account and manage knowledge
+- [cortex-cli](https://github.com/usecortex-official/cortex-cli) — CLI for markdown sync & terminal usage
 - [Model Context Protocol](https://modelcontextprotocol.io) — Learn about MCP
 
 ## License
