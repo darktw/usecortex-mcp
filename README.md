@@ -126,6 +126,39 @@ Search knowledge entries by keyword (text match).
 |-----------|----------|----------|------------------------------------|
 | `query`   | `string` | Yes      | Search term                        |
 
+### `capture_session` *(Memory plan)*
+
+Capture an AI session summary into persistent memory. Store what you learned, decided, or built.
+
+| Parameter      | Type       | Required | Description                                    |
+|----------------|------------|----------|------------------------------------------------|
+| `summary`      | `string`   | Yes      | Compressed summary of the session              |
+| `tool`         | `string`   | No       | AI tool used (claude-code, cursor, chatgpt)    |
+| `project`      | `string`   | No       | Project name or path                           |
+| `tags`         | `string[]` | No       | Tags for categorization                        |
+| `observations` | `string`   | No       | Detailed observations as JSON string           |
+
+### `recall_memory` *(Memory plan)*
+
+Search across all captured session memories using AI. Ask what you worked on or what decisions were made.
+
+| Parameter | Type     | Required | Description                                    |
+|-----------|----------|----------|------------------------------------------------|
+| `query`   | `string` | Yes      | Natural language question about past sessions  |
+| `tool`    | `string` | No       | Filter by AI tool                              |
+| `project` | `string` | No       | Filter by project                              |
+| `limit`   | `number` | No       | Max results (default 20)                       |
+
+### `list_sessions` *(Memory plan)*
+
+List recent captured session memories.
+
+| Parameter | Type     | Required | Description                        |
+|-----------|----------|----------|------------------------------------|
+| `tool`    | `string` | No       | Filter by AI tool                  |
+| `project` | `string` | No       | Filter by project                  |
+| `limit`   | `number` | No       | Max results (default 10)           |
+
 ## Use Cases
 
 | Who               | What                                                                  |
@@ -138,15 +171,19 @@ Search knowledge entries by keyword (text match).
 
 ## Pricing
 
-|                          | Free       | Pro ($12/mo) | Team ($25/mo) |
-|--------------------------|------------|--------------|---------------|
-| Knowledge entries        | 100        | Unlimited    | Unlimited     |
-| Topics                   | 3          | Unlimited    | Unlimited     |
-| API calls/month          | 500        | Unlimited    | Unlimited     |
-| Two-way API              | Read only  | Yes          | Yes           |
-| API keys                 | 1          | 5            | 20            |
-| Team members             | —          | —            | 10            |
-| Audit logs               | —          | —            | Yes           |
+|                          | Free       | Pro ($9/mo)  | Memory ($19/mo) | Team ($39/mo) |
+|--------------------------|------------|--------------|-----------------|---------------|
+| Knowledge entries        | 100        | Unlimited    | Unlimited       | Unlimited     |
+| Topics                   | 3          | Unlimited    | Unlimited       | Unlimited     |
+| API calls/month          | 500        | 10,000       | 50,000          | 200,000       |
+| Two-way API              | Read only  | Yes          | Yes             | Yes           |
+| AI session capture       | —          | —            | Yes             | Yes           |
+| Memory recall            | —          | —            | Yes             | Yes           |
+| Markdown sync            | —          | —            | Yes             | Yes           |
+| Session history          | —          | —            | 90 days         | Unlimited     |
+| API keys                 | 1          | 5            | 10              | 50            |
+| Team members             | —          | —            | —               | 25            |
+| Audit logs               | —          | —            | —               | Yes           |
 
 Manage your plan at [usecortex.net](https://usecortex.net).
 
