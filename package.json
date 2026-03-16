@@ -1,0 +1,20 @@
+{
+  "name": "usecortex-mcp",
+  "version": "1.0.0",
+  "description": "Persistent memory for AI coding agents. Store knowledge, query with AI, and recall sessions — all encrypted with AES-256.",
+  "main": "index.js",
+  "bin": {
+    "usecortex-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "ai", "memory", "knowledge-base", "coding-agent", "encrypted"],
+  "author": "darktw",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usecortex-official/cortex-mcp"
+  },
+  "homepage": "https://usecortex.net"
+}
